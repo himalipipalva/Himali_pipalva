@@ -1,0 +1,17 @@
+red:/- 5fab49 ab859c c49e35 eb8a7 5a1807
+ blue:/-ab499b ac2677 fabc11 e43314 6fd0d0
+ yellow:/-4967ab 97e67a 1b183d 6e1b5c 1ddfdf
+green:/-ab7049 60366f 4a3ed5 f78adf e1dae
+
+https://fonts.google.com/specimen/Poppin
+
+1.
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
+
+2.
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,900;1,500&display=swap" rel="stylesheet">
+s
