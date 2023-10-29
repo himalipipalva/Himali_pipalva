@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Grid Layout Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+            padding: 20px;
+        }
+
+        .box {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+            transition: transform 0.3s;
+        }
+
+        .box:hover {
+            background-color: #E5D0E3;
+            transform: scale(1.05);
+        }
+
+        .box img {
+            float: left;
+            margin-right: 10px;
+            transition: transform 0.3s;
+            height:100px;
+            width:100px;
+        }
+
+        .box img:hover {
+            transform: rotate(5deg);
+        }
+
+        .box:nth-child(2) {
+            grid-column: 2 / span 1;
+        }
+
+        .box:nth-child(3) {
+            grid-column: 1 / span 2;
+        }
+
+        .box:nth-child(4) {
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="./images/4.jpg" alt="Image 1">
+            <h2>Heading 1</h2>
+        </div>
+        <div class="box">
+            <img src="./images/12.jpg" alt="Image 2">
+            <h2>Heading 2</h2>
+        </div>
+        <div class="box">
+            <img src="./images/14.jpg" alt="Image 3">
+            <h2>Heading 3</h2>
+        </div>
+        <div class="box">
+            <img src="./images/image2.jpg" alt="Image 4">
+            <h2>Heading 4</h2>
+        </div>
+    </div>
+    <div>
+        <h2 style="text-align: center;">Roll no:-46 </h2>
+        <h2 style="text-align: center;">Pipalva Himali</h2>
+    </div>
+</body>
+</html>
